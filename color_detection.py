@@ -65,7 +65,7 @@ while(1):
             
         clicked=False
 
-    #Break the loop when user hits 'esc' key    
+    #Break the loop when user hits 'esc' keys    
     if cv2.waitKey(20) & 0xFF ==27:
         break
     
